@@ -1,0 +1,13 @@
+.show {
+  height: 580px;
+  width: 100%;
+  background-color: #d5f5f5;
+  display: flex;
+  background-image: url("bg.png");
+  background-position: 45px 270px;
+  background-repeat: no-repeat;
+  background-size: 455px 420px;
+  padding-left: 180px;
+  padding-right: 180px;
+  justify-content: space-between;
+}

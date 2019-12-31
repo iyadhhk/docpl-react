@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#logo {
+  height: 30px;
+  width: 260;
+}
+a {
+  text-decoration: none;
+  color: #ababab;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  font-size: 15px;
+  box-shadow: 0 0 5px #f5f5f5;
+  z-index: 1;
+  padding-left: 185px;
+  padding-right: 185px;
+}
+.mainMenu {
+  display: flex;
+  margin-right: 10px;
+  height: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  width: 290px;
+  background-color: white;
+}
+.menu:hover {
+  color: #00bfa5;
+}
+
+.drop-down {
+  background-color: white;
+  display: none;
+  position: fixed;
+  right: 200px;
+  top: 45px;
+  list-style: none;
+  padding: 10px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 220px;
+  height: 215px;
+  z-index: 1;
+}
+.mainMenu li:hover .drop-down {
+  display: block;
+}
+.dropItems {
+  font-size: 15px;
+  color: #ababab;
+}
+.dropLinks {
+  text-align: left;
+  padding: 10px 10px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.dropLinks:hover {
+  background-color: #f6f8f8;
+  color: #00bfa5;
+}

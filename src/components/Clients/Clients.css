@@ -1,0 +1,35 @@
+.clients {
+  height: 210px;
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  padding-left: 185px;
+  padding-right: 185px;
+}
+
+.docplanner {
+  font-size: 25px;
+  color: #00b3b4;
+  width: 250px;
+  line-height: 1.3;
+  margin-right: 110px;
+}
+
+.clients-links {
+  height: 100px;
+  width: 720px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.clients-logo {
+  height: 20px;
+  width: 125px;
+  fill: #d3d3d3;
+  margin-bottom: 30px;
+}
+.clients-logo:hover {
+  fill: #00bfa5;
+}

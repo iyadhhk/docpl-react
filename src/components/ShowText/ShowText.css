@@ -1,0 +1,21 @@
+.left-text {
+  padding-top: 70px;
+
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  text-align: left;
+}
+.big-title {
+  font-size: 35px;
+  color: #00b39b;
+  margin-bottom: 30px;
+}
+.left-details {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #747489;
+}
+.in-one-line {
+  display: block;
+}

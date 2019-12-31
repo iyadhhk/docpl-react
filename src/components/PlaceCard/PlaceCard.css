@@ -1,0 +1,38 @@
+.place-card {
+  height: 345px;
+  width: 310px;
+  border-radius: 5px;
+  border: 1px solid #f9f9f9;
+  overflow: hidden;
+  cursor: pointer;
+}
+.place-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.details {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.details-btn {
+  height: 30px;
+  width: 110px;
+  background-color: #3d83df;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.details-btn:hover {
+  background-color: #1662c6;
+  cursor: pointer;
+}
+
+.details-text {
+  color: #74747c;
+  font-weight: normal;
+}

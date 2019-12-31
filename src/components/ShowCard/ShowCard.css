@@ -1,0 +1,8 @@
+.showCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* width: 550px; */
+  padding: 20px;
+  align-content: space-around;
+}
